@@ -1,0 +1,105 @@
+
+
+
+
+#todo_contents{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	font-size: x-large;
+	margin: 10px 0 5px 0;
+	height: 290px;
+	width: 550px;
+	border-bottom-style: inset;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	column-gap: 10px;
+	box-shadow: 0px 5px 1px rgba(0, 0, 255, 0.76);;
+}
+
+#todo_contents input {
+	height: 30px;
+	font-size: large;
+	border-radius: 10px;
+	height: 20px;
+}
+#todo_contents textarea{
+	max-width: 230px;
+	width: 200px;
+	height: 105px;
+}
+
+#todo_contents *{
+	padding: 5px;
+}
+#todo_contents .notes{
+	display: inline-block;
+}
+
+textarea {
+	display: block;
+	max-width: 400px;
+	max-height: 70px;
+}
+
+.notes h4 {
+	margin-top: 10px;
+}
+#todo_contents #prior {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	justify-content: right;
+}
+
+#sub {
+	display: flex;
+	grid-column: 1/-1;
+	justify-content: center;
+}	
+#sub #submit-btn {
+	margin-top: 20px;
+	width: 300px;
+	font-size: large;
+	border-radius: 10px;
+	height: fit-content;
+}
+
+table {
+	border-collapse:separate;
+	border-spacing: 1em 1em;
+	border: 1px solid black;
+	font-size: x-large;
+}
+
+.list {
+	table-layout: auto;
+	width: 500px;
+}
+
+tr{
+	box-shadow: 2px 2px 10px ;
+}
+
+#input-proj {
+	display: block;
+	font-size: large;
+	margin-left: 20px;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px;
+	background-color: rgb(206, 191, 216);
+
+}
+#new-project {
+	font-size: x-large;
+	margin-top: 20px;
+}
+
+#create-project, .add_task {
+	margin-top: 10px;
+	font-size: large;
+	margin-left: 20px;
+	border-radius: 5em;
+	background-color: rgba(216, 191, 216, 0.589);
+}

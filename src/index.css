@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'ELASTRO';
+	src: url('../font//ELASTRO.ttf') format('tff');
+}
+
+* {
+ margin: 0;   
+}
+
+#container {
+	background-image: url('../images/download.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: inherit;
+}
+#container header {
+	height: 100px;
+}
+#container header h1 {
+	font-family: 'ELASTRO';
+	font-style: italic;
+	padding-top: 10px;
+}
+
+#container #menu_btn {
+	height: 40px;
+	width: 40px;
+}
+#container .btn-nav-div {
+	padding-left: 225px;
+
+}
+#container #nav-bar {
+	background-color: rgba(0, 0, 255, 0.274);
+	width: 300px;
+	border-radius: 10px;
+	height: inherit;
+}
+#menu{
+	margin: 5px 0 0 5px;
+	width: 250px;
+	height: 300px;
+	padding: 10px;
+	border-bottom-style:inset;
+	border-bottom-width: 2px;
+
+}
+#container .navigate {
+	height: 100px;
+	width: 250px;
+	border-radius: 10px;
+	justify-content: center;
+	align-items:center;
+	font-size: x-large;
+	background-color: rgba(0, 0, 255, 0.534);
+}
+#container #main {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	width:700px;
+	background-color: rgba(0, 0, 255, 0.267);
+	border-radius: 10px;
+	align-items: center;
+}
+
+#project_nav {
+	height: 150px;
+}
+
+#project_nav .add_task{
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 150px;
+	height: 40px;
+}
+
+
+#container #hold {
+	display: flex;
+	justify-content:stretch;
+	column-gap: 2em;
+}
